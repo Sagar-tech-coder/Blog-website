@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Blog</title>
+    <link rel="icon" href="iconn.png" />
+    <!-- adding css link -->
     <link rel="stylesheet" href="style.css" />
-    <!-- media query -->
+    <!-- adding media query link -->
     <link rel="stylesheet" href="@media_query.css" />
     <!-- Adding Remix Icon CDN Link -->
     <link
@@ -14,6 +16,7 @@
     />
   </head>
   <body>
+    <!-- main container -->
     <div id="main-container">
       <!-- navigation bar -->
       <nav>
@@ -22,13 +25,6 @@
           <i class="ri-menu-3-line" id="open"></i>
         </label>
         <div class="logo">FTTA</div>
-        <!-- hamburgur menu icon -->
-        <!-- <div class="menu-btn">
-          <input type="checkbox" id="check" />
-          <label for="check" class="checkbtn">
-            <i class="ri-menu-3-line" id="open"></i>
-          </label>
-        </div> -->
         <!-- unordered list -->
         <ul id="myLinks">
           <li><a class="active" href="#">Home</a></li>
@@ -38,19 +34,12 @@
           <li><a href="#footer">Links</a></li>
         </ul>
       </nav>
-      <!-- hamburger links -->
-      <!-- <div id="menu-links">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </div> -->
       <!-- header section -->
       <header>
         <div class="hero-img">
-          <!-- <img src="/wallpaper.jpg" alt="" /> -->
+          <!-- h1 element -->
           <h1>Welcome to Fast Track Travel Agency</h1>
         </div>
-        <!-- h1 element -->
         <!-- main description -->
         <p>
           Welcome to Fast Track Travel Agency, a travel blog dedicated to
@@ -86,7 +75,8 @@
       </header>
       <!-- main section -->
       <main>
-        <div id="blog">
+        <!-- blog section -->
+        <section id="blog">
           <!-- h2 element -->
           <h2>Our Latest Blogs</h2>
           <div class="line"></div>
@@ -185,14 +175,17 @@
               <img src="/lotus.jpg" alt="" />
             </div>
           </div>
-        </div>
-        <!-- About Us -->
-        <div id="about">
+        </section>
+        <!-- About Us section -->
+        <section id="about">
+          <!-- about heading -->
           <div class="about-h">
             <h3>About Us</h3>
             <hr />
           </div>
+          <!-- about box -->
           <div class="about-box">
+            <!-- about video -->
             <video src="video.mp4" class="about-video" controls></video>
             <p>
               Fast Track Travel Agency is your trusted partner for seamless,
@@ -205,9 +198,10 @@
               Track Travel Agency—where your journey is our priority.
             </p>
           </div>
-        </div>
+        </section>
         <!-- Contact Us -->
-        <div id="contact">
+        <section id="contact">
+          <!-- contact heading -->
           <h3>Contact Us</h3>
           <hr />
           <br /><br />
@@ -244,7 +238,7 @@
           <div class="submit-btn">
             <button>Submit</button>
           </div>
-        </div>
+        </section>
         <!-- <br /><br /> -->
         <!-- footer -->
         <footer id="footer">
@@ -252,6 +246,7 @@
           <a href="#">Github</a><br />
           <a href="#">LinkedIn</a><br /><br />
           <hr />
+          <!-- copyright text -->
           <div>
             Copyright © 2024 Developed by <a href="#">Sagar</a> | All rights
             reserved
@@ -259,7 +254,5 @@
         </footer>
       </main>
     </div>
-    <!-- Adding JavaScript -->
-    <script src="script.js"></script>
   </body>
 </html>
